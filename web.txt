@@ -1,0 +1,11 @@
+How does the internet work?
+    The internet is really just an enourmous network. A combination of computers and server computers everywhere that work 
+    together with other more designated computers to allow communication and store information between all. Computers are 
+    grouped on local networks either wirelessly or wired to a router which uses a modem to connect to an Internet Service 
+    Provider, which then connects you to other ISPs, modems, routers and computers all over the world. pretty cool.
+
+What happens when you click a link?
+    In not too many words, Your browser takes the link that you clicked and takes the domain name from that link and uses a 
+    DNS or Domain name System to locate the IP address for the site. This is all returned to your browser which gives the 
+    browser a pathway to access the site you are attempting to reach.
+

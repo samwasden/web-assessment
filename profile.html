@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <link href="styles.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <nav>
+            <ol>
+                <li class="crumb"><a href="./home.html">Home</a></li>
+                <li class="crumb"><a href="./profile.html">Profile</a></li>
+                <li class="crumb"><a href="./about.html">About</a></li>
+                <li class="crumb"><a href="./provo.html">Provo</a></li>
+            </ol>
+        </nav>
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <content id=profile>
+            <p>
+                Hi there, my name is Sam and I am an aspiring web developer. 
+            </p>
+            <img src="./photo.jpg">
+            <p>Here, I would love to share some information about me.</p>
+            <div id=lists>
+                <section>
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Snowboarding</li>
+                        <li>Soccer</li>
+                        <li>Programming</li>
+                        <li>Tech in General</li>
+                        <li>The Way Things Work</li>
+                        <li>Hip Hop</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Goals</h3>
+                    <ul>
+                        <li>Start my Own Company</li>
+                        <li>Live Nomadically for Awhile</li>
+                        <li>Travel</li>
+                        <li>Be able to Develop Entire Projects for Public Consumption</li>
+                    </ul>
+                </section>
+            </div>
+            <form id="contactMe">
+                <h3>Contact Me!</h3>
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="your name here">
+                <br>
+
+                <label for="tel">Phone Number</label>
+                <input type="tel" name="tel" placeholder="000-000-0000">
+                <small>Format: 123-456-7890</small>
+                <br>
+
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" placeholder="send me a note!"></textarea> 
+                <br>
+
+                <button>Submit</button>
+            </form>
+            <br>
+            <br>
+
+            <footer>
+                <h4>More info!</h4>
+                <button class="moreButton" id="color">My Favorite Color</button>
+                <button class="moreButton" id="place">My Favorite Place</button>
+                <button class="moreButton" id="ritual">My Favorite Ritual</button>
+            </footer>
+            
+        </content>
+
+    <br>
+    <br>
+
+    <a href="./home.html"><< Back </a>
+    <script src="profile.js"></script>
+    </body>
+</html>
